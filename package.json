@@ -1,6 +1,6 @@
 {
   "name": "gmedit-presence",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "GMEdit discord rich presence extension",
   "main": "index.js",
   "author": "anivire",
