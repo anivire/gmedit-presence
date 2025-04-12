@@ -1,0 +1,27 @@
+.ace_status-bar .custom-status {
+  display: inline !important;
+  font-size: var(--icons-font-size, 14px);
+  color: var(--fg-color-01);
+}
+
+.ace_status-bar .custom-status.status-working:before {
+  color: var(--fg-color-01);
+  content: '\EC8B';
+  font-family: 'Remix Icons';
+}
+
+.ace_status-bar .custom-status.status-idle:before {
+  color: var(--fg-color-01);
+  content: '\F2DE';
+  font-family: 'Remix Icons';
+}
+
+.ace_status-bar .custom-status.status-error:before {
+  color: var(--fg-color-01);
+  content: '\F064';
+  font-family: 'Remix Icons';
+}
+
+.custom-status:hover::before {
+  cursor: pointer;
+}

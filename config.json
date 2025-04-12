@@ -1,0 +1,5 @@
+{
+  "name": "gmedit-presence",
+  "scripts": ["src/index.js"],
+  "stylesheets": ["src/icons.css"]
+}
